@@ -1,0 +1,6 @@
+# SentimentAnalysis
+Sentiment Analysis based on aspects
+
+基于类别的情感分析系统
+
+根据商品交易评论数据Yelp DataSet搭建一个基于类别的情感分析系统，本项目不仅要考虑到整体的情感，也需要考虑到用户对产品的每个方面的评价。按照每个商品的所有评论，使用nltk抽取出top 5的aspects，对每个aspect进行情感评分，并记录相应的评论。评论文本情感分类使用FastText模型，交叉验证的平均准确率达到0.89。系统实现对用户的查询，返回对商品的总体评价和各个aspect的评价以及评论。
